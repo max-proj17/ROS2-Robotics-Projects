@@ -1,0 +1,2 @@
+Invoking command in '/root/drone_control/build/ros_ardrone': /usr/bin/cmake /root/drone_control/src/ros_ardrone -DCMAKE_INSTALL_PREFIX=/root/drone_control/install/ros_ardrone
+Invoked command in '/root/drone_control/build/ros_ardrone' returned '1': /usr/bin/cmake /root/drone_control/src/ros_ardrone -DCMAKE_INSTALL_PREFIX=/root/drone_control/install/ros_ardrone

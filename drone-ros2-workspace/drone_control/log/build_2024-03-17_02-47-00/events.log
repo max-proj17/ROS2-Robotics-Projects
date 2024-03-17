@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000136] (drone_control_cpp) JobQueued: {'identifier': 'drone_control_cpp', 'dependencies': OrderedDict()}
+[0.000214] (ros_ardrone) JobQueued: {'identifier': 'ros_ardrone', 'dependencies': OrderedDict()}
+[0.000338] (drone_control_cpp) JobStarted: {'identifier': 'drone_control_cpp'}
+[0.037446] (ros_ardrone) JobStarted: {'identifier': 'ros_ardrone'}
+[0.072029] (drone_control_cpp) JobProgress: {'identifier': 'drone_control_cpp', 'progress': 'cmake'}
+[0.072348] (drone_control_cpp) Command: {'cmd': ['/usr/bin/cmake', '/root/drone_control/src/drone_control_cpp', '-DCMAKE_INSTALL_PREFIX=/root/drone_control/install/drone_control_cpp'], 'cwd': '/root/drone_control/build/drone_control_cpp', 'env': OrderedDict([('HOSTNAME', 'a832f2c5ff7c'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/drone_control/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/drone_control/build/drone_control_cpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.074432] (ros_ardrone) JobProgress: {'identifier': 'ros_ardrone', 'progress': 'cmake'}
+[0.074641] (ros_ardrone) Command: {'cmd': ['/usr/bin/cmake', '/root/drone_control/src/ros_ardrone', '-DCMAKE_INSTALL_PREFIX=/root/drone_control/install/ros_ardrone'], 'cwd': '/root/drone_control/build/ros_ardrone', 'env': OrderedDict([('HOSTNAME', 'a832f2c5ff7c'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/drone_control/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/drone_control/build/ros_ardrone'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.079661] (ros_ardrone) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.079780] (ros_ardrone) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.079837] (ros_ardrone) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.079887] (ros_ardrone) StderrLine: {'line': b'  code such as\n'}
+[0.079935] (ros_ardrone) StderrLine: {'line': b'\n'}
+[0.079981] (ros_ardrone) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.080027] (ros_ardrone) StderrLine: {'line': b'\n'}
+[0.080073] (ros_ardrone) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.080119] (ros_ardrone) StderrLine: {'line': b'\n'}
+[0.080197] (ros_ardrone) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.080265] (ros_ardrone) StderrLine: {'line': b'  line.\n'}
+[0.080311] (ros_ardrone) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.080357] (ros_ardrone) StderrLine: {'line': b'\x1b[0m\n'}
+[0.099623] (-) TimerEvent: {}
+[0.111935] (drone_control_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.113481] (ros_ardrone) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.151290] (drone_control_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.154215] (ros_ardrone) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.156552] (drone_control_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.160053] (ros_ardrone) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199714] (-) TimerEvent: {}
+[0.201599] (drone_control_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.203939] (ros_ardrone) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.207316] (drone_control_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.207547] (drone_control_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.207834] (drone_control_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.210235] (drone_control_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.210781] (ros_ardrone) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.211034] (ros_ardrone) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.211290] (ros_ardrone) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.214226] (ros_ardrone) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.265135] (drone_control_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.267740] (ros_ardrone) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.271529] (drone_control_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.271700] (drone_control_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.272103] (drone_control_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.274483] (drone_control_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.275623] (ros_ardrone) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.275813] (ros_ardrone) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.276371] (ros_ardrone) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.276968] (ros_ardrone) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.277106] (ros_ardrone) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.277273] (ros_ardrone) StderrLine: {'line': b'  CMake.\n'}
+[0.277453] (ros_ardrone) StderrLine: {'line': b'\n'}
+[0.277573] (ros_ardrone) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.277657] (ros_ardrone) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.277752] (ros_ardrone) StderrLine: {'line': b'\n'}
+[0.277827] (ros_ardrone) StderrLine: {'line': b'\x1b[0m\n'}
+[0.277903] (ros_ardrone) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:2 (include):\n'}
+[0.277985] (ros_ardrone) StderrLine: {'line': b'  include could not find requested file:\n'}
+[0.278070] (ros_ardrone) StderrLine: {'line': b'\n'}
+[0.278153] (ros_ardrone) StderrLine: {'line': b'    /core/rosbuild/rosbuild.cmake\n'}
+[0.278235] (ros_ardrone) StderrLine: {'line': b'\n'}
+[0.278319] (ros_ardrone) StderrLine: {'line': b'\x1b[0m\n'}
+[0.278402] (ros_ardrone) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:17 (rosbuild_make_distribution):\n'}
+[0.278488] (ros_ardrone) StderrLine: {'line': b'  Unknown CMake command "rosbuild_make_distribution".\n'}
+[0.278574] (ros_ardrone) StderrLine: {'line': b'\n'}
+[0.278661] (ros_ardrone) StderrLine: {'line': b'\x1b[0m\n'}
+[0.278747] (ros_ardrone) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.278841] (ros_ardrone) StdoutLine: {'line': b'See also "/root/drone_control/build/ros_ardrone/CMakeFiles/CMakeOutput.log".\n'}
+[0.280575] (ros_ardrone) CommandEnded: {'returncode': 1}
+[0.281056] (ros_ardrone) JobEnded: {'identifier': 'ros_ardrone', 'rc': 1}
+[0.299786] (-) TimerEvent: {}
+[0.365088] (drone_control_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.399865] (-) TimerEvent: {}
+[0.426391] (drone_control_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.463833] (drone_control_cpp) StderrLine: {'line': b"Error parsing '/root/drone_control/src/drone_control_cpp/package.xml':\n"}
+[0.463994] (drone_control_cpp) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.464068] (drone_control_cpp) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[0.464133] (drone_control_cpp) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[0.464308] (drone_control_cpp) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString\n'}
+[0.464601] (drone_control_cpp) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[0.464697] (drone_control_cpp) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString\n'}
+[0.464747] (drone_control_cpp) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[0.464795] (drone_control_cpp) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString\n'}
+[0.464841] (drone_control_cpp) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[0.464886] (drone_control_cpp) StderrLine: {'line': b'xml.parsers.expat.ExpatError: junk after document element: line 19, column 0\n'}
+[0.464932] (drone_control_cpp) StderrLine: {'line': b'\n'}
+[0.464977] (drone_control_cpp) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[0.465022] (drone_control_cpp) StderrLine: {'line': b'\n'}
+[0.465066] (drone_control_cpp) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.465111] (drone_control_cpp) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[0.465156] (drone_control_cpp) StderrLine: {'line': b'    main()\n'}
+[0.465201] (drone_control_cpp) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[0.465246] (drone_control_cpp) StderrLine: {'line': b'    raise e\n'}
+[0.465291] (drone_control_cpp) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[0.465335] (drone_control_cpp) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[0.465380] (drone_control_cpp) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[0.465426] (drone_control_cpp) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[0.465471] (drone_control_cpp) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/root/drone_control/src/drone_control_cpp/package.xml':\n"}
+[0.465516] (drone_control_cpp) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[0.465561] (drone_control_cpp) StderrLine: {'line': b'junk after document element: line 19, column 0\n'}
+[0.470025] (drone_control_cpp) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[0.470176] (drone_control_cpp) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.470228] (drone_control_cpp) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[0.470323] (drone_control_cpp) StderrLine: {'line': b'  /root/drone_control/src/drone_control_cpp/package.xml\n'}
+[0.470518] (drone_control_cpp) StderrLine: {'line': b'  /root/drone_control/build/drone_control_cpp/ament_cmake_core/package.cmake)\n'}
+[0.470577] (drone_control_cpp) StderrLine: {'line': b'  returned error code 1\n'}
+[0.470627] (drone_control_cpp) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.470674] (drone_control_cpp) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[0.470719] (drone_control_cpp) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[0.470765] (drone_control_cpp) StderrLine: {'line': b'  CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)\n'}
+[0.470810] (drone_control_cpp) StderrLine: {'line': b'\n'}
+[0.470854] (drone_control_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[0.470898] (drone_control_cpp) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.470949] (drone_control_cpp) StdoutLine: {'line': b'See also "/root/drone_control/build/drone_control_cpp/CMakeFiles/CMakeOutput.log".\n'}
+[0.473546] (drone_control_cpp) JobEnded: {'identifier': 'drone_control_cpp', 'rc': 'SIGINT'}
+[0.484521] (-) EventReactorShutdown: {}

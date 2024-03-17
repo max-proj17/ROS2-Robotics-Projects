@@ -1,0 +1,134 @@
+[0.693s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.693s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e87366f8130>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e87366fad70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e87366fad70>>, mixin_verb=('build',))
+[0.725s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.726s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.726s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.726s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.726s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.726s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.726s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.726s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.726s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/drone_control'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_control_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_control_cpp) by extension 'ignore'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_control_cpp) by extension 'ignore_ament_install'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_control_cpp) by extensions ['colcon_pkg']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_control_cpp) by extension 'colcon_pkg'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_control_cpp) by extensions ['colcon_meta']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_control_cpp) by extension 'colcon_meta'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_control_cpp) by extensions ['ros']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_control_cpp) by extension 'ros'
+[0.739s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/drone_control_cpp': Error(s) in package 'src/drone_control_cpp/package.xml':
+The manifest contains invalid XML:
+junk after document element: line 19, column 0
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_control_cpp) by extensions ['cmake', 'python']
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_control_cpp) by extension 'cmake'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_control_cpp) by extension 'python'
+[0.740s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_control_cpp' with type 'cmake' and name 'drone_control_cpp'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ardrone) by extensions ['ignore', 'ignore_ament_install']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ardrone) by extension 'ignore'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ardrone) by extension 'ignore_ament_install'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ardrone) by extensions ['colcon_pkg']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ardrone) by extension 'colcon_pkg'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ardrone) by extensions ['colcon_meta']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ardrone) by extension 'colcon_meta'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ardrone) by extensions ['ros']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ardrone) by extension 'ros'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ardrone) by extensions ['cmake', 'python']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ardrone) by extension 'cmake'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ardrone) by extension 'python'
+[0.743s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ardrone' with type 'cmake' and name 'ros_ardrone'
+[0.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.791s] Level 5:colcon.colcon_core.verb:set package 'drone_control_cpp' build argument 'cmake_args' from command line to 'None'
+[0.791s] Level 5:colcon.colcon_core.verb:set package 'drone_control_cpp' build argument 'cmake_target' from command line to 'None'
+[0.791s] Level 5:colcon.colcon_core.verb:set package 'drone_control_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'drone_control_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'drone_control_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'drone_control_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'drone_control_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'drone_control_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'drone_control_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.792s] DEBUG:colcon.colcon_core.verb:Building package 'drone_control_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/drone_control/build/drone_control_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/drone_control/install/drone_control_cpp', 'merge_install': False, 'path': '/root/drone_control/src/drone_control_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'ros_ardrone' build argument 'cmake_args' from command line to 'None'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'ros_ardrone' build argument 'cmake_target' from command line to 'None'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'ros_ardrone' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'ros_ardrone' build argument 'cmake_clean_cache' from command line to 'False'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'ros_ardrone' build argument 'cmake_clean_first' from command line to 'False'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'ros_ardrone' build argument 'cmake_force_configure' from command line to 'False'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'ros_ardrone' build argument 'ament_cmake_args' from command line to 'None'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'ros_ardrone' build argument 'catkin_cmake_args' from command line to 'None'
+[0.800s] Level 5:colcon.colcon_core.verb:set package 'ros_ardrone' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.800s] DEBUG:colcon.colcon_core.verb:Building package 'ros_ardrone' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/drone_control/build/ros_ardrone', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/drone_control/install/ros_ardrone', 'merge_install': False, 'path': '/root/drone_control/src/ros_ardrone', 'symlink_install': False, 'test_result_base': None}
+[0.808s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.816s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.816s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/drone_control/src/drone_control_cpp'
+[0.826s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.826s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.826s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.853s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/drone_control/src/ros_ardrone'
+[0.862s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.862s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/drone_control/build/drone_control_cpp': /usr/bin/cmake /root/drone_control/src/drone_control_cpp -DCMAKE_INSTALL_PREFIX=/root/drone_control/install/drone_control_cpp
+[0.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/drone_control/build/ros_ardrone': /usr/bin/cmake /root/drone_control/src/ros_ardrone -DCMAKE_INSTALL_PREFIX=/root/drone_control/install/ros_ardrone
+[1.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/drone_control/build/ros_ardrone' returned '1': /usr/bin/cmake /root/drone_control/src/ros_ardrone -DCMAKE_INSTALL_PREFIX=/root/drone_control/install/ros_ardrone
+[1.300s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.300s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.300s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.301s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.313s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.313s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.313s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.313s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.313s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[1.313s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.320s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/drone_control/install/local_setup.ps1'
+[1.321s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/drone_control/install/_local_setup_util_ps1.py'
+[1.322s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/drone_control/install/setup.ps1'
+[1.330s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/drone_control/install/local_setup.sh'
+[1.330s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/drone_control/install/_local_setup_util_sh.py'
+[1.330s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/drone_control/install/setup.sh'
+[1.338s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/drone_control/install/local_setup.bash'
+[1.339s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/drone_control/install/setup.bash'
+[1.347s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/drone_control/install/local_setup.zsh'
+[1.347s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/drone_control/install/setup.zsh'

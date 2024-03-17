@@ -1,0 +1,47 @@
+[0.038s] Invoking command in '/root/drone_control/build/ros_ardrone': /usr/bin/cmake /root/drone_control/src/ros_ardrone -DCMAKE_INSTALL_PREFIX=/root/drone_control/install/ros_ardrone
+[0.042s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.042s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.042s]   contain a literal, direct call to the project() command.  Add a line of
+[0.042s]   code such as
+[0.043s] 
+[0.043s]     project(ProjectName)
+[0.043s] 
+[0.043s]   near the top of the file, but after cmake_minimum_required().
+[0.043s] 
+[0.043s]   CMake is pretending there is a "project(Project)" command on the first
+[0.043s]   line.
+[0.043s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.043s] [0m
+[0.076s] -- The C compiler identification is GNU 11.4.0
+[0.117s] -- The CXX compiler identification is GNU 11.4.0
+[0.123s] -- Detecting C compiler ABI info
+[0.167s] -- Detecting C compiler ABI info - done
+[0.173s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.174s] -- Detecting C compile features
+[0.174s] -- Detecting C compile features - done
+[0.177s] -- Detecting CXX compiler ABI info
+[0.230s] -- Detecting CXX compiler ABI info - done
+[0.238s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.238s] -- Detecting CXX compile features
+[0.239s] -- Detecting CXX compile features - done
+[0.240s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.240s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.240s]   CMake.
+[0.240s] 
+[0.240s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.240s]   CMake that the project does not need compatibility with older versions.
+[0.240s] 
+[0.240s] [0m
+[0.240s] [31mCMake Error at CMakeLists.txt:2 (include):
+[0.241s]   include could not find requested file:
+[0.241s] 
+[0.241s]     /core/rosbuild/rosbuild.cmake
+[0.241s] 
+[0.241s] [0m
+[0.241s] [31mCMake Error at CMakeLists.txt:17 (rosbuild_make_distribution):
+[0.241s]   Unknown CMake command "rosbuild_make_distribution".
+[0.241s] 
+[0.241s] [0m
+[0.241s] -- Configuring incomplete, errors occurred!
+[0.241s] See also "/root/drone_control/build/ros_ardrone/CMakeFiles/CMakeOutput.log".
+[0.243s] Invoked command in '/root/drone_control/build/ros_ardrone' returned '1': /usr/bin/cmake /root/drone_control/src/ros_ardrone -DCMAKE_INSTALL_PREFIX=/root/drone_control/install/ros_ardrone
